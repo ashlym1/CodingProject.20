@@ -1,9 +1,10 @@
 body {
-    font-family: Arial, sans-serif;
-    background: #f8f8f8;
-    margin: 0;
-    padding: 20px;
-  }
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom right, #248dc5, #ffb283);
+  margin: 0;
+  padding: 20px;
+  color: #fff5e0; 
+}
   
   main {
     max-width: 1200px;
@@ -26,13 +27,16 @@ body {
 } 
   
   .tour-card {
-    background: #fff0f6;
-    border-radius: 12px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background: rgba(255, 255, 255, 0.15); 
+    border: 1px solid #ffe5b4; /* adding a border around the cards  */
+    border-radius: 16px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     padding: 1rem;
     display: flex;
     flex-direction: column;
-    transition: transform 0.2s ease;
+    transition: transform 0.3s ease;
+    backdrop-filter: blur(6px); /* the background to be  more blended  */
+    color: #fff; /* text color  */
   }
   
   .tour-card:hover {
@@ -72,8 +76,8 @@ body {
   }
   
   .tour-card button {
-    background-color: #ea9faa;
-    color: white;
+    background-color: #afe0f6;
+    color: rgb(32, 30, 30);
     border: none;
     padding: 0.5rem 1rem;
     border-radius: 8px;
@@ -83,7 +87,7 @@ body {
   }
   
   .tour-card button:hover {
-    background-color: #f0a9da;
+    background-color: #c5e2fd;
   }
   
   

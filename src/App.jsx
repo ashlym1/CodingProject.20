@@ -9,8 +9,7 @@ import DestinationSelector from "./Components/DestinationSelector";
 import './Styles/style.css'; // adding the styling to it 
 
 //  b.  Applying a proxy to avoid CORS issues 
-const url = 'https://api.allorigins.win/raw?url=https://course-api.com/react-tours-project';
-
+const url = "https://thingproxy.freeboard.io/fetch/https://course-api.com/react-tours-project"; //  API url 
 function App() {
   //  Creating state variables for Task 2
   const [tours, setTours] = useState([]); // tour data 

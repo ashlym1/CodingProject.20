@@ -9,7 +9,7 @@ function Gallery ({ tours, loading, error, fetchTours, onRemove}) {
         return <h2>Loading...</h2>;
       }
       // Errorr message 
-     if (eror) { 
+     if (error) { 
         return<h2> Error: Something went wrong,please try again </h2>
      }
      // Refresh button when  all the tours are removed 
