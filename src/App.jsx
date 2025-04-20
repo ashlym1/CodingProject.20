@@ -1,4 +1,6 @@
- //  Task 2 : 
+ //  Task 1 : Setting up my App (app,gallery,tourcard,destinationselector)
+ 
+ // Task 2 : App.jsx 
 
 //  a. Importing  the react tools and components 
 import React, { useState, useEffect } from "react";

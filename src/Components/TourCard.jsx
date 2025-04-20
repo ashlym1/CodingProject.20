@@ -1,6 +1,8 @@
+// Task 3: Tourcard.jsx 
+// a.  Importing the react tools and components
 import React, { useState } from "react";
 
-// Tourcard displays individual tour info 
+// b. Tourcard displays individual tour info 
 const TourCard = ({ id, name, price, info, image, onRemove }) => {
   // Local state to toggle "Read More" / "Show Less"
   const [readMore, setReadMore] = useState(false);
@@ -21,7 +23,7 @@ const TourCard = ({ id, name, price, info, image, onRemove }) => {
           {readMore ? "Show Less" : "Read More"}
         </button>
       </p>
-      {/* Button to remove the book */}
+      {/* Button to remove when selectign not interested  */}
       <button className="btn-remove" onClick={() => onRemove(id)}>
         Not Interested
       </button>
@@ -30,4 +32,4 @@ const TourCard = ({ id, name, price, info, image, onRemove }) => {
 };
 
 
-export default TourCard;
+export default TourCard; // exporting the TourCard component
